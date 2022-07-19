@@ -1,7 +1,6 @@
 ﻿string Number(string number){
     string a1 = "", a2 = "", a3 = "", a4 = "";
     string otvet = "нет";
-    bool x1 = false;
     if (number.Length == 5){
         a1 = number[0].ToString();
         a2 = number[1].ToString();
