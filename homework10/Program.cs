@@ -11,7 +11,6 @@
 }
 
 void getConsole(string number){
-    //Console.ReadLine();
     if (number == ""){
        number = Console.ReadLine(); 
        Console.WriteLine(Number(number));
@@ -21,6 +20,6 @@ void getConsole(string number){
     }
 }
 
-Console.WriteLine("Vvedite 3x znachnoe chislo ");
+Console.WriteLine("Введите 3х значное число: ");
 string number = Console.ReadLine();
 getConsole(number);
