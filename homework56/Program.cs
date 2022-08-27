@@ -41,10 +41,7 @@ void GetMinSumArray(int[,] matr){
     }    
     Console.WriteLine("Номер строки с наименьшей суммой элементов: " + field + ", сумма равна " + min);
 }
-
-
 int[,] matrix = new int[3, 4]; //объявляем массив
-
 FillArray(matrix);
 PrintMatrix(matrix);
 GetMinSumArray(matrix);
